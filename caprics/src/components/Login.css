@@ -1,0 +1,190 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    width: 480px;
+    font-family: 'Nunito';
+    margin: auto;
+    padding: 100px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+   
+  .login-form-2 {
+    font-family: 'Lato';
+    width: 480px;
+    margin: auto;
+    padding: 100px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .logo-image {
+    display: flex;
+    margin: 0 auto;
+    width: 480px;
+    padding-bottom: 70px;
+  }
+  
+  .login-header {
+    font-weight: bold;
+    text-align: center;
+    color: var(--2D2D45, #2D2D45);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; 
+    letter-spacing: 0.1px;
+  } 
+  .text-header {
+    text-align: center;
+    color: var(--2D2D45, #2D2D45);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    line-height: 15pt;
+    padding-bottom: 15px;
+  }
+
+  .text-header {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+  }
+  
+  .form-pswd {
+    width: 360px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(8, 14, 18, 0.10);
+    background: #F8FAFA;
+    margin: 10px auto;
+  }
+
+  .form-pswd ::placeholder {
+    color:#2D2D45;
+  }
+  
+  .input-field {
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    background: #F8FAFA;
+    color: #2D2D45;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    padding-left: 10px;
+  }
+  
+  .input-field-2 {
+    width: 84%;
+    border-radius: 3px;
+    border: none;
+    background: #F8FAFA;
+    color: #2D2D45;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    padding-left: 10px;
+  }
+  
+.mail-logo {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.forgot-password-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 15px 43px;
+  color: #2D2D45;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.002em;
+}
+.login-password-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 15px 36px;
+  font-family: Lato;
+  color: #2D2D45;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+  font-family: 'Lato';
+}
+.login-password-link p {
+  padding-left: 10px;
+  margin: 0;
+}
+.captcha-checkbox {
+  display: flex;
+  align-items: center;
+  margin: 20px 43px;
+}
+
+.captcha-checkbox label {
+  margin-left: 10px;
+  border-radius: 2px;
+  border: 1px solid rgba(8, 14, 18, 0.10);
+  background: #F8FAFA;
+}
+
+.login-button {
+  margin-top: 20px;
+  width: 396px;
+  border-radius: 8px;
+  color: white;
+  background: #161F6A;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 16px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.right-image {
+  height: 100vh;
+  width: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    width: 80%; 
+  }
+
+  .input-field {
+    width: 100%;
+  }
+
+  .forgot-password-link {
+    justify-content: center; 
+  }
+
+  .right-image {
+    display: none; 
+  }
+}
